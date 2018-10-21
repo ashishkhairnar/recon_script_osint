@@ -24,6 +24,7 @@ for line in domains_from_user_input:
 #    ip_addresses.append(str(ip))
 #    i=i+1
 
+# Uncomment following block if you want to use file instead of std-in
 '''
 with open(PATH_INPUT, "r") as f:
     read_data = f.readlines()
