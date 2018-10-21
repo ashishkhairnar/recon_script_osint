@@ -19,11 +19,6 @@ for line in domains_from_user_input:
    line = str(line).strip('\n')
    domains.append(line)
 
-
-#for domains in domains_from_user:
-#    ip_addresses.append(str(ip))
-#    i=i+1
-
 # Uncomment following block if you want to use file instead of std-in
 '''
 with open(PATH_INPUT, "r") as f:
